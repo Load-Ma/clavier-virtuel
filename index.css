@@ -1,0 +1,41 @@
+.contain-keys{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 156px;
+}
+
+.contain-keys .line-0, .contain-keys .line-1, .contain-keys .line-2 {
+    margin: 1px 0;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.key{
+    margin: 0 1px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected {
+    background-color: #fff5cf;
+}
+
+.result{
+    margin: 50px auto;
+    border-radius: 7px;
+    padding: 5px;
+    width: 800px;
+    min-height: 19px;
+    box-shadow: 5px 5px 40px black;
+}
