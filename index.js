@@ -1,7 +1,8 @@
 let letters = []
-letters[0] = "azertyuiop<"
-letters[1] = "qsdfghjklm@"
-letters[2] = "wxcvbn."
+letters[0] = "1234567890"
+letters[1] = "azertyuiop<"
+letters[2] = "qsdfghjklm@"
+letters[3] = "wxcvbn.-_"
 
 window.onload = function () {
     let col = 0
@@ -10,7 +11,7 @@ window.onload = function () {
 
     for (let i=0; i<letters.length; i++){
         let child = document.createElement(`div`)
-        child.classList.toggle(`line-${i}`)
+        child.classList.toggle(`line`)
         document.body.children[0].appendChild(child)
         letters[i].split("").forEach(l => {
             let child = document.createElement('div')
