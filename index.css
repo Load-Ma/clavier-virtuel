@@ -5,10 +5,9 @@
     justify-content: space-around;
     align-items: center;
     width: auto;
-    height: 156px;
 }
 
-.contain-keys .line-0, .contain-keys .line-1, .contain-keys .line-2 {
+.contain-keys .line {
     margin: 1px 0;
     display: flex;
     flex-direction: row;
@@ -28,7 +27,7 @@
 }
 
 .selected {
-    background-color: #fff5cf;
+    background-color: #ffeb8f;
 }
 
 .result{
